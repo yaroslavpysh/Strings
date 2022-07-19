@@ -19,14 +19,23 @@ public class Main {
     public static void strings(String a) {
 
 //      System.out.println(a.length());
+        System.out.println("Распечатать последний символ строки");
         System.out.println(a.charAt(a.length() - 1));
+        System.out.println("Проверить, заканчивается ли ваша строка подстрокой "!!!"");
         System.out.println(a.endsWith("!!!"));
+        System.out.println("Проверить, начинается ли ваша строка подстрокой "I like"");
         System.out.println(a.startsWith("I like"));
+        System.out.println("Проверить, содержит ли ваша строка подстроку "Java"");
         System.out.println(a.contains("Java"));
+        System.out.println("Найти позицию подстроки "Java" в строке "I like Java!!!"");
         System.out.println(a.indexOf("Java"));
+        System.out.println("Заменить все символы "a" на "o"");
         System.out.println(a.replace("a", "o"));
+        System.out.println("Преобразуйте строку к верхнему регистру");
         System.out.println(a.toUpperCase());
+        System.out.println("Преобразуйте строку к нижнему регистру");
         System.out.println(a.toLowerCase());
+        System.out.println("Вырезать строку Java c помощью метода "String.substring()"");
         System.out.println(a.substring(0, 6) + a.substring(11, 14));
     }
 
