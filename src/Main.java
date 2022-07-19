@@ -6,11 +6,17 @@ public class Main {
         String a = "I like Java!!!";
         strings(a);
         String b = "aka fdsfs baab afasf tttttttt";
+        System.out.println("Написать метод, который находит и выводит все слова палиндромы в тексте. ");
         isPalindrome(b);
+        System.out.println("Написать метод, который находит и выводит все слова, длина которых от 3 до 5 включительно.");
         searchThreeFive(a);
+        System.out.println("Написать метод, который возвращает самое маленькое слово в тексте. ");
         searchTheSmallest(a);
+        System.out.println("Написать метод, который возвращает самое большое слово в тексте.");
         searchTheBeggest(a);
+        System.out.println("Используя StringBuilder сделайте выражения ");
         example(3, 56);
+        System.out.println("Получить слово состоящее из первой половины первого слова и второй половины второго слова ");
         replace("aaaasa", "bbbbsa");
 
 
